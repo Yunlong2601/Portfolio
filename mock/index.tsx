@@ -13,10 +13,22 @@ import {
 ========================= */
 export const EXPERIENCE: ExperienceItem[] = [
   {
+    // DRAFT: confirm job title and start month
+    type: 'work',
+    title: 'Software Engineer',
+    organisation: 'Zalfion Consulting',
+    period: 'Sep 2026 – Present',
+    location: 'Singapore',
+    current: true,
+    description:
+      'Building and maintaining operations platforms, dashboards and WhatsApp automations for Singapore SMEs in F&B, property, retail and health. Work spans full-stack features, role-based access, integrations with third-party systems, and shipping through reviewed pull requests to live production apps.',
+    highlights: ['Next.js', 'TypeScript', 'Supabase', 'Python', 'Access Control', 'AI Automation'],
+  },
+  {
     type: 'work',
     title: 'Software Engineer Intern',
     organisation: 'Urban Redevelopment Authority of Singapore (URA)',
-    period: 'Mar 2026 – Present',
+    period: 'Mar 2026 – Feb 2027',
     location: 'Singapore',
     current: true,
     description:
@@ -78,52 +90,52 @@ export const CERTIFICATIONS: CertificationItem[] = [
 
 export const SERVICES: Service[] = [
   {
-    key: 'security-ops',
-    title: 'Security Operations',
+    key: 'dashboards',
+    title: 'Business Dashboards',
     description:
-      'Monitor and respond to security incidents using structured procedures.',
+      'Turn data from several systems into clear dashboards for owners, managers and staff.',
+    icon: Monitor,
+    highlights: ['Reporting', 'Finance Views', 'Data Integration'],
+  },
+  {
+    key: 'backend',
+    title: 'Databases & APIs',
+    description:
+      'Design database schemas, migrations and APIs that keep business data consistent.',
+    icon: Server,
+    highlights: ['PostgreSQL', 'Supabase', 'REST APIs'],
+  },
+  {
+    key: 'access',
+    title: 'Accounts & Access',
+    description:
+      'Set up logins and roles so each person sees only what they need.',
     icon: ShieldCheck,
-    highlights: ['Threat Monitoring', 'Incident Response', 'SOP Adherence'],
+    highlights: ['Role-Based Access', 'Password Reset', 'Rate Limits'],
   },
   {
     key: 'it-support',
     title: 'IT Support & Operations',
     description:
-      'Support users and systems to ensure operational continuity.',
-    icon: Monitor,
-    highlights: ['User Support', 'Troubleshooting', 'Documentation'],
-  },
-  {
-    key: 'endpoint',
-    title: 'Endpoint Management',
-    description:
-      'Deploy and manage endpoints using standardized configurations.',
-    icon: Server,
-    highlights: ['Device Imaging', 'Azure MDM', 'Policy Enforcement'],
-  },
-  {
-    key: 'network',
-    title: 'Network & Access Control',
-    description:
-      'Apply access control and monitoring practices in networked environments.',
+      'Support users and systems to keep day-to-day operations running.',
     icon: Cloud,
-    highlights: ['Access Control', 'Monitoring', 'Security Policies'],
+    highlights: ['User Support', 'Troubleshooting', 'Azure MDM'],
   },
   {
     key: 'automation',
-    title: 'Task Automation',
+    title: 'Automation & Integrations',
     description:
-      'Automate routine IT tasks to improve efficiency and consistency.',
+      'Connect business tools and automate follow-ups with WhatsApp, email and AI assistants, within safe limits.',
     icon: Workflow,
-    highlights: ['Python Scripts', 'Process Automation'],
+    highlights: ['WhatsApp', 'Email', 'AI Assistants', 'Python'],
   },
   {
-    key: 'system-admin',
-    title: 'System Administration',
+    key: 'full-stack',
+    title: 'Full-Stack Web Apps',
     description:
-      'Maintain system reliability through preventive maintenance.',
+      'Build dashboards and operations platforms with role-based access and a clean, mobile-friendly UI.',
     icon: Database,
-    highlights: ['Maintenance', 'System Updates', 'Uptime'],
+    highlights: ['Next.js', 'Supabase', 'TypeScript'],
   },
 ]
 
@@ -131,6 +143,60 @@ export const SERVICES: Service[] = [
    PROJECTS
 ========================= */
 export const PROJECTS: ProjectItem[] = [
+  /* Client work at Zalfion Consulting — anonymised: no client names, people or data
+     (Zalfion SOP 07, PDPA). No screenshots: the card shows a confidential placeholder. */
+  {
+    client: 'F&B group · Zalfion Consulting',
+    title: 'HR & Hiring Platform — Digital Forms and Workforce Planning',
+    topics: ['Next.js', 'Supabase', 'E-signature', 'Email Automation'],
+    problemScope:
+      'A multi-brand F&B group ran hiring, employment letters and staff planning on paper and spreadsheets. Contracts and letters had to go out under the right company letterhead, be signed remotely, and be tracked — while weekly rosters needed a clear view of labour cost.',
+    roleAndSolution:
+      'As part of the Zalfion team, I worked on the group\'s HR platform: digital forms with drawn signatures, applicant tracking, and a workforce-planning view for managers.',
+    workProcess:
+      'Features were delivered as small, reviewed pull requests against the live system. The forms module sends each document from the right mailbox with the right entity logo, emails a signed copy back, and expires response links after 7 days so stale links cannot be reused. Workforce planning splits front- and back-of-house hours and shows labour as a percentage of sales with an hourly-rate breakdown. Database changes went through numbered migrations, coordinated with other open pull requests.',
+    outcomeResults:
+      'Contracts and letters are issued, signed and filed in one place with a full history, instead of by hand. Managers plan each week against labour cost before the roster goes out.',
+  },
+  {
+    client: 'Property agency · Zalfion Consulting',
+    title: 'Property Operations Dashboard & WhatsApp Assistant',
+    topics: ['Access Control', 'Rate Limiting', 'WhatsApp', 'AI Assistant'],
+    problemScope:
+      'A property agency handled listings, enquiries and viewings across WhatsApp and several tools, with one shared login for the whole team. Finance pages were visible to everyone, and follow-ups depended on someone remembering.',
+    roleAndSolution:
+      'As part of the Zalfion team, I contributed to the agency\'s operations dashboard and its WhatsApp assistant, with a focus on accounts, access control and safe automation.',
+    workProcess:
+      'Replaced the shared login with per-user accounts and owner/staff roles, blocking staff from finance pages and raw data. Added self-service password change and reset with per-user and per-IP rate limits and generic error messages, so the login form does not reveal which usernames exist. Embedded the team inbox in the dashboard on the company\'s own domain, and built a WhatsApp re-engagement campaign whose 30-messages-a-day cap is enforced in the database rather than only in code. The container base image was pinned and updated promptly after a Node.js security release.',
+    outcomeResults:
+      'Each staff member now signs in with their own account and sees only what their role allows. Enquiries, viewings and reminders run from one dashboard, with the AI assistant kept within agreed limits.',
+  },
+  {
+    client: 'Vending franchise · Zalfion Consulting',
+    title: 'Franchise Operations Platform — Faults, Visits and Statements',
+    topics: ['Next.js', 'Supabase', 'Live Map', 'PDF Statements'],
+    problemScope:
+      'A vending-machine franchise needed to track machine faults, technician visits, refunds and monthly franchisee statements across many sites, which were scattered across chats and spreadsheets.',
+    roleAndSolution:
+      'As part of the Zalfion team, I contributed to the operations platform used by the office, technicians and franchisees.',
+    workProcess:
+      'Built features including a live site map that flags faulty machines, role-based logins, a technician to-do list driven by one shared visit-clock rule, and refund approvals. On the finance side: monthly statements that can be edited line by line before they are generated, rent percentage and GST handling, carried-forward cost offsets, and downloadable invoices. Franchisees see their own statement and sales in a portal.',
+    outcomeResults:
+      'Faults, visits and statements live in one system. Overdue work is shown consistently everywhere, and franchisees get clear monthly statements instead of manual spreadsheets.',
+  },
+  {
+    client: 'Allied-health clinic · Zalfion Consulting',
+    title: 'Clinic Finance Dashboard',
+    topics: ['Python', 'Data Integration', 'Dashboards', 'GST Reporting'],
+    problemScope:
+      'A multi-state allied-health practice pulled billing data from more than one practice-management system and needed a single, trustworthy view of cash flow, practitioner billings and outstanding client balances.',
+    roleAndSolution:
+      'I contributed to the finance dashboard for the practice\'s directors and staff, covering data attribution, reporting and payroll timesheets.',
+    workProcess:
+      'Attributed billings by service date across data sources, showed amounts both excluding and including GST, and added a paged client-value list with total outstanding. Built payroll timesheets with a month grid prefilled from the practice system and a draft/submit flow. Director-only headline figures are hidden from other roles, and the layout was cleaned up to show three headline cards with details behind toggles.',
+    outcomeResults:
+      'Directors get one consistent view of the business across data sources, and payroll timesheets start prefilled instead of from scratch.',
+  },
   {
     frontImage: '/images/project/fortifiles.mp4',
     backImage: '/images/project/fortifiles.mp4',
@@ -160,28 +226,6 @@ export const PROJECTS: ProjectItem[] = [
       'The completed team solution enabled consistent and secure user management with clear separation of privileges across different user roles. By implementing role-based authentication and structured backend logic, the system reinforced secure access control while supporting a maintainable and scalable backend design.',
   },
 
-  {
-    frontImage: '/images/project/it-lab-1.mp4',
-    backImage: '/images/project/it-lab-1.mp4',
-    title: 'Password Security & Authentication Risk Analysis',
-    topics: ['Authentication Security'
-
-             ,'Password Risk Analysis'
-
-             ,'Cybersecurity Fundamentals'
-
-             ,'Security Awareness'],
-    problemScope:
-      'Weak password practices and poor authentication hygiene remain a common cause of security breaches. This personal cybersecurity study examined common password-related risks and evaluated how different authentication practices affect account security. The objective was to understand real-world authentication weaknesses and explore mitigation strategies through analysis and demonstration.',
-    roleAndSolution:
-      'As an individual learner, I conducted an independent cybersecurity study focused on password security and authentication risks. As part of this study, I designed and built a small educational demo to visually demonstrate common authentication weaknesses and mitigation concepts, supporting my analysis and learning.',
-    workProcess:
-      'I researched common authentication-related threats such as weak passwords, password reuse, brute-force attacks, and credential stuffing using publicly available cybersecurity guidelines. Based on this research, I analysed patterns that contribute to password compromise and compared different authentication approaches, including password-only authentication, password complexity enforcement, account lockout policies, and multi-factor authentication (MFA).To reinforce this analysis, I created a self-built demo application that illustrates password strength evaluation, common attack scenarios, and mitigation concepts in a controlled, educational context. The demo was used to visualise how authentication weaknesses can be exploited and how layered controls reduce risk.',
-    outcomeResults:
-      'This project strengthened my understanding of authentication-related risks and the importance of layered security controls. By combining analysis with a self-created demo, I developed a stronger security mindset when evaluating authentication systems and improved my ability to explain security concepts clearly, supporting readiness for entry-level cybersecurity and Cyber Analyst roles.',
-  },
-
-  
   {
     frontImage: '/images/project/japan_exchange.jpeg',
     backImage: '/images/project/japan_exchange.jpeg',

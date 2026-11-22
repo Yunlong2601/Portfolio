@@ -5,7 +5,7 @@ import AppSection from '@/components/layout/app-section'
 import MediaLightbox from '@/components/custom/media-lightbox'
 import { PROJECTS } from '@/mock'
 import React from 'react'
-import { ExternalLink, Github, CheckCircle2 } from 'lucide-react'
+import { ExternalLink, Github, CheckCircle2, Briefcase, Lock } from 'lucide-react'
 import Link from 'next/link'
 
 const ProjectSection = () => {
@@ -16,7 +16,7 @@ const ProjectSection = () => {
       <div className="w-full md:w-2/3 mx-auto mb-10">
         <SectionTitle name="My Projects" />
         <SectionDescription
-          content="Here are some of the projects I have worked on, showcasing my skills in cybersecurity, IT operations, and leadership. Each project highlights my involvement, work process, and the results achieved."
+          content="Client systems I have helped build at Zalfion Consulting, followed by academic and leadership projects. Client work is described without names or data to respect confidentiality."
         />
       </div>
       <div className="space-y-16">
@@ -26,11 +26,26 @@ const ProjectSection = () => {
             className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 items-start`}
           >
             <div className="w-full md:w-2/5">
-              <MediaLightbox
-                src={project.frontImage || ''}
-                title={project.title || ''}
-                thumbClassName="relative w-full h-[280px] overflow-hidden rounded-xl bg-primary/10"
-              />
+              {project.frontImage ? (
+                <MediaLightbox
+                  src={project.frontImage}
+                  title={project.title || ''}
+                  thumbClassName="relative w-full h-[280px] overflow-hidden rounded-xl bg-primary/10"
+                />
+              ) : (
+                <div className="relative w-full h-[280px] rounded-xl bg-primary/10 border border-primary/20 flex flex-col items-center justify-center gap-3 p-6 text-center">
+                  <div className="w-14 h-14 rounded-2xl bg-primary/15 flex items-center justify-center">
+                    <Briefcase className="w-7 h-7 text-primary" />
+                  </div>
+                  {project.client && (
+                    <p className="text-sm font-semibold text-foreground">{project.client}</p>
+                  )}
+                  <p className="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <Lock className="w-3.5 h-3.5" />
+                    Client work — screenshots withheld for confidentiality
+                  </p>
+                </div>
+              )}
               <div className="flex flex-wrap gap-2 mt-4">
                 {project.topics?.map((topic) => (
                   <span

@@ -15,8 +15,7 @@ const ServiceSection = () => {
       <div className="w-full md:w-1/2 mx-auto">
         <SectionTitle name="Core Skills" />
         <SectionDescription
-          content={`A summary of my core technical skills and capabilities developed through academic projects, IT operations work, and leadership experience in real-world environments.
-`}
+          content={`What I build and support day to day — from full-stack web apps and dashboards to automations — shaped by client work, IT operations and my studies.`}
         />
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-5 mt-10 md:mt-16">

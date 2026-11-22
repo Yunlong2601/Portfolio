@@ -47,7 +47,7 @@ const AppFooter = () => {
 
       <footer className="bg-gray-900 py-5 text-center text-sm text-white">
         &copy; {new Date().getFullYear()} <b className="text-primary">Shen Yunlong</b>.  
-        Cybersecurity Digital Portfolio. All rights reserved.
+        Software Engineering Portfolio. All rights reserved.
       </footer>
     </>
   )

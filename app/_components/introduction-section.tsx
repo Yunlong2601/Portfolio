@@ -18,7 +18,7 @@ const IntroductionSection = () => {
         {/* Status badge */}
         <div className="inline-flex items-center gap-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-semibold px-3 py-1 rounded-full mb-4">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          Software Engineer Intern @ URA Singapore
+          Software Engineer @ Zalfion Consulting
         </div>
 
         <p className="text-lg font-semibold">Hi I am</p>
@@ -37,14 +37,13 @@ const IntroductionSection = () => {
 
           {/* Short punchy tagline */}
           <p className="text-primary font-semibold mb-3 text-sm md:text-base">
-            Threat Monitoring · Incident Response · Secure Development
+            Full-Stack Web Apps · Business Dashboards · Automation
           </p>
 
           <p className="text-sm md:text-base text-muted-foreground mb-6 leading-relaxed">
-            Cybersecurity & Digital Forensics graduate from Nanyang Polytechnic, currently
-            interning as a Software Engineer at the Urban Redevelopment Authority of Singapore.
-            Experienced in IT operations, endpoint security, and incident escalation — with a
-            strong interest in security monitoring, forensics, and cyber defence.
+            Software engineer at Zalfion Consulting, building the operations platforms, dashboards
+            and automations Singapore businesses run on — and a software engineering intern at URA.
+            Diploma in Cybersecurity & Digital Forensics from Nanyang Polytechnic.
           </p>
 
           <div className="flex flex-wrap gap-3">

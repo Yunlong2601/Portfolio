@@ -2,11 +2,9 @@
 import { useEffect, useState } from 'react'
 
 const ROLES = [
-  'Cybersecurity Analyst',
-  'Security Engineer',
-  'Digital Forensics',
-  'SOC Analyst',
-  'Threat Monitor',
+  'Software Engineer',
+  'Full-Stack Developer',
+  'Automation Builder',
 ]
 
 export function TypingHeadline() {

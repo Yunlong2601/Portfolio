@@ -17,23 +17,26 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Shen Yunlong | Cybersecurity Analyst',
+  title: 'Shen Yunlong | Software Engineer',
   description:
-    'Portfolio of Shen Yunlong — Cybersecurity & Digital Forensics graduate specialising in threat monitoring, incident response, endpoint security, and security operations.',
+    'Portfolio of Shen Yunlong — software engineer at Zalfion Consulting building full-stack operations platforms, dashboards and automations. Diploma in Cybersecurity & Digital Forensics.',
   openGraph: {
-    title: 'Shen Yunlong | Cybersecurity Analyst',
+    title: 'Shen Yunlong | Software Engineer',
     description:
-      'Cybersecurity & Digital Forensics graduate with hands-on experience in IT operations, endpoint security, and incident response. Open to cybersecurity and SOC analyst roles.',
+      'Software engineer building production systems for Singapore businesses with Next.js, Supabase and Python.',
     type: 'website',
   },
   keywords: [
-    'Cybersecurity Analyst',
+    'Software Engineer',
+    'Full-Stack Developer',
+    'Next.js',
+    'Supabase',
+    'TypeScript',
+    'Python',
+    'Dashboards',
+    'Automation',
     'Shen Yunlong',
-    'Digital Forensics',
-    'SOC Analyst',
-    'Incident Response',
-    'Threat Monitoring',
-    'Endpoint Security',
+    'Cybersecurity & Digital Forensics',
     'IT Operations',
     'Singapore',
   ],

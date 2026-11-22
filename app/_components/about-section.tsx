@@ -1,34 +1,26 @@
 import React from 'react'
-import ProgressSkill from '@/components/custom/progress-skill'
 import TwoColSection from '@/components/layout/two-col-section'
 import AvatarProfile from '@/components/custom/avatar-profile'
 import SectionTitle from '@/components/custom/section-title'
 import SectionDescription from '@/components/custom/section-description'
 import { Shield, Server, Code2 } from 'lucide-react'
 
+// Tools used in real work, shown as tags rather than self-rated percentages
 const SKILL_GROUPS = [
   {
-    label: 'Security & Monitoring',
-    icon: Shield,
-    skills: [
-      { name: 'Threat Monitoring & Incident Response', value: 85 },
-      { name: 'Endpoint & Network Security', value: 80 },
-    ],
-  },
-  {
-    label: 'Systems & Cloud',
-    icon: Server,
-    skills: [
-      { name: 'Azure MDM & System Administration', value: 80 },
-    ],
-  },
-  {
-    label: 'Development & Scripting',
+    label: 'Development',
     icon: Code2,
-    skills: [
-      { name: 'Python', value: 75 },
-      { name: 'Web Development (HTML / CSS / JS)', value: 72 },
-    ],
+    skills: ['Next.js', 'TypeScript', 'React', 'Python', 'Supabase / PostgreSQL', 'Tailwind CSS'],
+  },
+  {
+    label: 'Integrations & Automation',
+    icon: Server,
+    skills: ['WhatsApp & Chatwoot', 'Email Automation', 'AI Agent Workflows', 'Google Sheets', 'REST APIs'],
+  },
+  {
+    label: 'Engineering Practice',
+    icon: Shield,
+    skills: ['Git & Pull Requests', 'CI / GitHub Actions', 'Database Migrations', 'Role-Based Access', 'Code Review'],
   },
 ]
 
@@ -41,9 +33,9 @@ const AboutSection = () => {
       <div>
         <SectionTitle name="About Me" />
         <SectionDescription
-          content={`I am a Cybersecurity & Digital Forensics graduate from Nanyang Polytechnic with hands-on experience in IT operations, endpoint management, and incident escalation. During my role as an IT Support & Operations Assistant, I supported over 100 users weekly in a live environment, managed endpoint deployments, and resolved access-related and system issues while adhering to operational and security procedures.
+          content={`I am a software engineer at Zalfion Consulting, where I help build the operations platforms Singapore businesses run on every day — HR and hiring, property enquiries, franchise operations and finance dashboards. I work across the stack in Next.js, Supabase and Python, shipping through reviewed pull requests to live systems.
 
-Through both academic projects and operational support work, I developed a strong interest in threat monitoring, incident response, and the design of secure systems that prioritise accountability, auditability, and operational reliability.`}
+I am also completing a software engineering internship at the Urban Redevelopment Authority (URA). I studied Cybersecurity & Digital Forensics at Nanyang Polytechnic and supported 100+ users weekly in IT operations, so I care about getting the basics right: the right access for each person, careful handling of client data, and systems people can rely on.`}
         />
 
         <div className="mt-6 flex flex-col gap-6">
@@ -55,9 +47,14 @@ Through both academic projects and operational support work, I developed a stron
                   {group.label}
                 </span>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
-                  <ProgressSkill key={skill.name} name={skill.name} value={skill.value} />
+                  <span
+                    key={skill}
+                    className="text-xs font-medium bg-primary/10 text-foreground border border-primary/20 px-3 py-1 rounded-full"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>

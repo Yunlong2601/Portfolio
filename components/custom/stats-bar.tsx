@@ -12,8 +12,8 @@ type Stat = {
 const STATS: Stat[] = [
   { icon: Users,         value: 100, suffix: '+',    label: 'Users Supported Weekly' },
   { icon: Award,         value: 3,   suffix: '',      label: 'Industry Certifications' },
-  { icon: FolderKanban,  value: 4,   suffix: '+',     label: 'Projects Completed' },
-  { icon: Building2,     value: 4,   suffix: ' mo',   label: 'At URA Singapore' },
+  { icon: FolderKanban,  value: 4,   suffix: '+',     label: 'Client Systems Built' },
+  { icon: Building2,     value: 12,  suffix: ' mo',   label: 'Internship at URA' },
 ]
 
 function useCountUp(target: number, duration = 1400, active: boolean) {

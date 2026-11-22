@@ -29,7 +29,7 @@ const ContactSection = () => {
       <div className="w-full md:w-2/3 mx-auto mb-20 md:mb-32 text-center">
         <SectionTitle name={"Let's Connect"} />
         <SectionDescription
-          content={`I am open to cybersecurity opportunities and professional discussions related to threat monitoring, incident response, and security operations. Feel free to reach out through the channels below or drop me a message directly.`}
+          content={`I am open to software engineering opportunities and conversations about building web apps, dashboards and automation. Feel free to reach out through the channels below or drop me a message directly.`}
         />
 
         {/* Quick links */}

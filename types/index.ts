@@ -9,6 +9,8 @@ export type Service = {
 }
 
 export type ProjectItem = {
+  /** Client work shown without media: "Industry · Company" */
+  client?: string
   frontImage?: string
   backImage?: string
   title?: string
