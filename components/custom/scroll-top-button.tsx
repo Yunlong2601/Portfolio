@@ -39,18 +39,19 @@ const ScrollToTopButton = () => {
     }
   }, [])
 
+  // Sits below the terminal toggle (fixed bottom-20 right-4, 48px) in the same column
   return (
     <div
-      className={`fixed bottom-16 right-5 transition-opacity duration-300 ${
+      className={`fixed bottom-4 right-4 z-40 transition-opacity duration-300 ${
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}
     >
       <Button
         onClick={scrollToTop}
-        className="rounded-full shadow-lg w-14 h-14"
+        className="rounded-full shadow-lg w-12 h-12"
         aria-label="Scroll to top"
       >
-        <ArrowUp className="size-7" />
+        <ArrowUp className="size-6" />
       </Button>
     </div>
   )
