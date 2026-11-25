@@ -20,7 +20,7 @@ const line = (kind: LineKind, text: string): Line => ({ id: uid(), kind, text })
 const BANNER: Line[] = [
   line('system', '╔══════════════════════════════════════════╗'),
   line('system', '║  shenyl@portfolio  ~  v1.0               ║'),
-  line('system', '║  Software Engineer  |  Singapore         ║'),
+  line('system', '║  Forward Deployed Engineer  |  Singapore║'),
   line('system', '╚══════════════════════════════════════════╝'),
   line('dim',    ''),
   line('output', 'Welcome! Type  help  to see available commands.'),
@@ -47,7 +47,7 @@ const COMMANDS: Record<string, () => Line[]> = {
 
   whoami: () => [
     line('success', 'Shen Yunlong'),
-    line('output',  'Role:     Software Engineer @ Zalfion Consulting'),
+    line('output',  'Role:     Forward Deployed Engineer @ Zalfion Consulting'),
     line('output',  '          Software Engineer Intern @ URA Singapore'),
     line('output',  'Degree:   Dip. Cybersecurity & Digital Forensics (NP)'),
     line('output',  'Location: Singapore 🇸🇬'),
@@ -97,7 +97,7 @@ const COMMANDS: Record<string, () => Line[]> = {
 
   'cat resume': () => [
     line('output',  '─── Work Experience ──────────────────────────────'),
-    line('success', '  [Current] Software Engineer'),
+    line('success', '  [Current] Forward Deployed Engineer'),
     line('output',  '            Zalfion Consulting'),
     line('dim',     '            Sep 2026 – Present · Singapore'),
     line('dim',     ''),

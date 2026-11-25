@@ -25,9 +25,9 @@ const PERSON_JSON_LD = {
   name: 'Shen Yunlong',
   url: SITE_URL,
   email: 'mailto:yunlong2601@gmail.com',
-  jobTitle: 'Software Engineer',
+  jobTitle: 'Forward Deployed Engineer',
   description:
-    'Software engineer at Zalfion Consulting building operations platforms, dashboards and automations for Singapore businesses; software engineering intern at URA.',
+    'Forward Deployed Engineer at Zalfion Consulting building operations platforms, dashboards and automations for Singapore businesses; software engineering intern at URA.',
   worksFor: [
     { '@type': 'Organization', name: 'Zalfion Consulting' },
     { '@type': 'Organization', name: 'Urban Redevelopment Authority of Singapore (URA)' },
@@ -46,18 +46,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
-  title: 'Shen Yunlong | Software Engineer',
+  title: 'Shen Yunlong | Forward Deployed Engineer',
   description:
-    'Portfolio of Shen Yunlong — software engineer at Zalfion Consulting building full-stack operations platforms, dashboards and automations. Diploma in Cybersecurity & Digital Forensics.',
+    'Portfolio of Shen Yunlong — Forward Deployed Engineer at Zalfion Consulting building full-stack operations platforms, dashboards and automations. Diploma in Cybersecurity & Digital Forensics.',
   openGraph: {
-    title: 'Shen Yunlong | Software Engineer',
+    title: 'Shen Yunlong | Forward Deployed Engineer',
     description:
-      'Software engineer building production systems for Singapore businesses with Next.js, Supabase and Python.',
+      'Forward Deployed Engineer building production systems for Singapore businesses with Next.js, Supabase and Python.',
     type: 'profile',
     url: SITE_URL,
     siteName: 'Shen Yunlong',
   },
   keywords: [
+    'Forward Deployed Engineer',
     'Software Engineer',
     'Full-Stack Developer',
     'Next.js',

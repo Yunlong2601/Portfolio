@@ -1,12 +1,12 @@
-# Shen Yunlong — Software Engineer (Singapore)
+# Shen Yunlong — Forward Deployed Engineer (Singapore)
 
-> Software engineer at Zalfion Consulting building operations platforms, dashboards and automations for Singapore businesses, and a software engineering intern at the Urban Redevelopment Authority (URA). Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
+> Forward Deployed Engineer at Zalfion Consulting, building operations platforms, dashboards and automations for Singapore businesses, and a software engineering intern at the Urban Redevelopment Authority (URA). Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
 
 Website: https://yunlong2601.github.io/Portfolio/
 
 ## Current roles
 
-- Software Engineer, Zalfion Consulting — Sep 2026 to present, Singapore. Full-stack features, role-based access, third-party integrations and WhatsApp/AI automations for SMEs in F&B, property, retail and health. Ships through reviewed pull requests to live production apps.
+- Forward Deployed Engineer, Zalfion Consulting — Sep 2026 to present, Singapore. Works directly with client teams. Full-stack features, role-based access, third-party integrations and WhatsApp/AI automations for SMEs in F&B, property, retail and health. Ships through reviewed pull requests to live production apps.
 - Software Engineer Intern, Urban Redevelopment Authority of Singapore (URA) — Mar 2026 to Feb 2027, Singapore. Design and development of internal software systems.
 
 ## Previous experience
@@ -40,7 +40,7 @@ Client work at Zalfion Consulting is described without client names or data.
 
 ## Open to
 
-Software engineer and full-stack developer roles; automation and integration projects.
+Forward deployed, software engineer and full-stack developer roles; automation and integration projects.
 
 ## Contact
 

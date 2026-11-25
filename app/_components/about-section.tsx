@@ -33,7 +33,7 @@ const AboutSection = () => {
       <div>
         <SectionTitle name="About Me" />
         <SectionDescription
-          content={`I am a software engineer at Zalfion Consulting, where I help build the operations platforms Singapore businesses run on every day — HR and hiring, property enquiries, franchise operations and finance dashboards. I work across the stack in Next.js, Supabase and Python, shipping through reviewed pull requests to live systems.
+          content={`I am a Forward Deployed Engineer at Zalfion Consulting: I work directly with client teams to build the operations platforms Singapore businesses run on every day — HR and hiring, property enquiries, franchise operations and finance dashboards. I work across the stack in Next.js, Supabase and Python, shipping through reviewed pull requests to live systems.
 
 I am also completing a software engineering internship at the Urban Redevelopment Authority (URA). I studied Cybersecurity & Digital Forensics at Nanyang Polytechnic and supported 100+ users weekly in IT operations, so I care about getting the basics right: the right access for each person, careful handling of client data, and systems people can rely on.`}
         />

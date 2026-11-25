@@ -15,7 +15,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     // DRAFT: confirm job title and start month
     type: 'work',
-    title: 'Software Engineer',
+    title: 'Forward Deployed Engineer',
     organisation: 'Zalfion Consulting',
     period: 'Sep 2026 – Present',
     location: 'Singapore',

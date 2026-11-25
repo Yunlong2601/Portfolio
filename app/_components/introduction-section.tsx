@@ -19,7 +19,7 @@ const IntroductionSection = () => {
         {/* Status badge */}
         <div className="inline-flex items-center gap-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-semibold px-3 py-1 rounded-full mb-4">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          Software Engineer @ Zalfion Consulting
+          Forward Deployed Engineer @ Zalfion Consulting
         </div>
 
         <p className="text-lg font-semibold">Hi I am</p>
@@ -27,12 +27,12 @@ const IntroductionSection = () => {
 
         <SlideUp>
           {/* Typewriter headline — desktop */}
-          <h2 className="hidden md:block md:text-6xl lg:text-7xl font-extrabold mb-6 min-h-[1.2em]">
+          <h2 className="hidden md:block md:text-5xl lg:text-6xl font-extrabold mb-6 md:min-h-[3.1em] lg:min-h-[2.1em]">
             <TypingHeadline />
           </h2>
 
           {/* Typewriter headline — mobile */}
-          <h2 className="block md:hidden text-4xl font-extrabold mb-4 min-h-[1.4em]">
+          <h2 className="block md:hidden text-4xl font-extrabold mb-4 min-h-[2.4em]">
             <TypingHeadline />
           </h2>
 
@@ -42,7 +42,7 @@ const IntroductionSection = () => {
           </p>
 
           <p className="text-sm md:text-base text-muted-foreground mb-6 leading-relaxed">
-            Software engineer at Zalfion Consulting, building the operations platforms, dashboards
+            Forward Deployed Engineer at Zalfion Consulting, building the operations platforms, dashboards
             and automations Singapore businesses run on — and a software engineering intern at URA.
             Diploma in Cybersecurity & Digital Forensics from Nanyang Polytechnic.
           </p>

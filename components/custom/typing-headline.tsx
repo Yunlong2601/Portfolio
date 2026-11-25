@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 
 const ROLES = [
+  'Forward Deployed Engineer',
   'Software Engineer',
   'Full-Stack Developer',
   'Automation Builder',
