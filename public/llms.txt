@@ -1,0 +1,50 @@
+# Shen Yunlong — Software Engineer (Singapore)
+
+> Software engineer at Zalfion Consulting building operations platforms, dashboards and automations for Singapore businesses, and a software engineering intern at the Urban Redevelopment Authority (URA). Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
+
+Website: https://yunlong2601.github.io/Portfolio/
+
+## Current roles
+
+- Software Engineer, Zalfion Consulting — Sep 2026 to present, Singapore. Full-stack features, role-based access, third-party integrations and WhatsApp/AI automations for SMEs in F&B, property, retail and health. Ships through reviewed pull requests to live production apps.
+- Software Engineer Intern, Urban Redevelopment Authority of Singapore (URA) — Mar 2026 to Feb 2027, Singapore. Design and development of internal software systems.
+
+## Previous experience
+
+- IT Support & Operations Assistant, Nanyang Polytechnic — Oct 2024 to Feb 2026. Frontline IT support for 100+ users weekly, endpoint deployments (Azure MDM), incident escalation.
+
+## Education and certifications
+
+- Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic (2022–2025)
+- Introduction to Cybersecurity — Cisco Networking Academy (Jan 2026)
+- Cybersecurity Fundamentals — IBM SkillsBuild (Jan 2026)
+- Web Development Fundamentals — IBM SkillsBuild (Jan 2026)
+
+## Skills
+
+- Development: Next.js, TypeScript, React, Python, Supabase / PostgreSQL, Tailwind CSS
+- Integrations & automation: WhatsApp & Chatwoot, email automation, AI agent workflows, Google Sheets, REST APIs
+- Engineering practice: Git & pull requests, CI / GitHub Actions, database migrations, role-based access, code review
+
+## Selected projects
+
+Client work at Zalfion Consulting is described without client names or data.
+
+- HR & Hiring Platform (F&B group): digital forms with drawn signatures, company letterheads, 7-day response links, applicant tracking, weekly workforce planning with labour cost.
+- Property Operations Dashboard & WhatsApp Assistant (property agency): per-user accounts with owner/staff roles, rate-limited password reset, embedded team inbox, AI assistant with a database-enforced 30-messages-a-day cap.
+- Franchise Operations Platform (vending franchise): live fault map, technician to-do list, refund approvals, editable monthly statements with PDF invoices, franchisee portal.
+- Clinic Finance Dashboard (allied-health practice): billings combined from multiple systems by service date, GST reporting, outstanding balances, payroll timesheets.
+- FortiFile — Secure Document Storage Platform (academic, team): authentication, role-based access control, audit logging.
+- Digital Bookstore — User Account Management System (academic, team): role-based login and profile management in Flask.
+- Japanese Exchange Programme 2025 (leadership): Vice President of the Chinese Cultural Group; co-led a programme for 55 visiting students.
+
+## Open to
+
+Software engineer and full-stack developer roles; automation and integration projects.
+
+## Contact
+
+- Email: yunlong2601@gmail.com
+- LinkedIn: https://www.linkedin.com/in/shenyl/
+- GitHub: https://github.com/Yunlong2601
+- CV: https://yunlong2601.github.io/Portfolio/resume.pdf

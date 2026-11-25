@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
 import { Expand } from 'lucide-react'
+import { asset } from '@/lib/utils'
 
 type MediaLightboxProps = {
   /** Thumbnail media shown in the card */
@@ -34,7 +35,8 @@ export default function MediaLightbox({
   thumbClassName = 'relative w-full aspect-video overflow-hidden rounded-xl border bg-muted',
   contentClassName = 'max-w-4xl',
 }: MediaLightboxProps) {
-  const resolvedSrc = popupSrc || src
+  const thumbSrc = asset(src)
+  const resolvedSrc = asset(popupSrc || src)
   const resolvedType: 'image' | 'video' = type ? type : isVideo(resolvedSrc) ? 'video' : 'image'
 
   return (
@@ -48,7 +50,7 @@ export default function MediaLightbox({
           {/* Thumbnail */}
           {resolvedType === 'video' ? (
             <video
-              src={src}
+              src={thumbSrc}
               className="h-full w-full object-cover"
               muted
               playsInline
@@ -56,7 +58,7 @@ export default function MediaLightbox({
             />
           ) : (
             <Image
-              src={src}
+              src={thumbSrc}
               alt={alt || title}
               fill
               className="object-cover"

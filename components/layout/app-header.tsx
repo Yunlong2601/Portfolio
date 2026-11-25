@@ -3,6 +3,7 @@ import { Button } from '../ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet'
 import { MenuIcon } from 'lucide-react'
 import { HEADER_ITEMS } from '@/const'
+import { asset } from '@/lib/utils'
 import { ThemeToggle } from '../custom/theme-toggle'
 
 const AppHeader = () => {
@@ -29,7 +30,7 @@ const AppHeader = () => {
 
           <li>
             <a
-              href="/resume.pdf"
+              href={asset('/resume.pdf')}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -69,7 +70,7 @@ const AppHeader = () => {
 
                 <li>
                   <a
-                    href="/resume.pdf"
+                    href={asset('/resume.pdf')}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

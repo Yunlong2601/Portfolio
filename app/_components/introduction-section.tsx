@@ -10,6 +10,7 @@ import { SlideUp } from '@/components/motion/slide-up'
 import { ZoomIn } from '@/components/motion/zoom-in'
 import { Download } from 'lucide-react'
 import { TypingHeadline } from '@/components/custom/typing-headline'
+import { asset } from '@/lib/utils'
 
 const IntroductionSection = () => {
   return (
@@ -50,7 +51,7 @@ const IntroductionSection = () => {
             <a href="#contact">
               <Button className="bg-orange-500 hover:bg-orange-600">Contact Me</Button>
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={asset('/resume.pdf')} target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="gap-2">
                 <Download className="w-4 h-4" />
                 Download CV
