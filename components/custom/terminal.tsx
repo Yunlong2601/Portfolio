@@ -49,7 +49,7 @@ const COMMANDS: Record<string, () => Line[]> = {
     line('success', 'Shen Yunlong'),
     line('output',  'Role:     Forward Deployed Engineer @ Zalfion Consulting'),
     line('output',  '          Software Engineer Intern @ URA Singapore'),
-    line('output',  'Degree:   Dip. Cybersecurity & Digital Forensics (NP)'),
+    line('output',  'Degree:   Dip. Cybersecurity & Digital Forensics (NYP)'),
     line('output',  'Location: Singapore 🇸🇬'),
     line('output',  'Email:    yunlong2601@gmail.com'),
     line('output',  'GitHub:   github.com/Yunlong2601'),
