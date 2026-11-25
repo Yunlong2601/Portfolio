@@ -147,6 +147,7 @@ export const PROJECTS: ProjectItem[] = [
      (Zalfion SOP 07, PDPA). No screenshots: the card shows a confidential placeholder. */
   {
     client: 'F&B group · Zalfion Consulting',
+    mockup: 'hr-forms',
     title: 'HR & Hiring Platform — Digital Forms and Workforce Planning',
     topics: ['Next.js', 'Supabase', 'E-signature', 'Email Automation'],
     problemScope:
@@ -160,6 +161,7 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     client: 'Property agency · Zalfion Consulting',
+    mockup: 'property-ops',
     title: 'Property Operations Dashboard & WhatsApp Assistant',
     topics: ['Access Control', 'Rate Limiting', 'WhatsApp', 'AI Assistant'],
     problemScope:
@@ -173,6 +175,7 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     client: 'Vending franchise · Zalfion Consulting',
+    mockup: 'franchise-ops',
     title: 'Franchise Operations Platform — Faults, Visits and Statements',
     topics: ['Next.js', 'Supabase', 'Live Map', 'PDF Statements'],
     problemScope:
@@ -186,6 +189,7 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     client: 'Allied-health clinic · Zalfion Consulting',
+    mockup: 'clinic-finance',
     title: 'Clinic Finance Dashboard',
     topics: ['Python', 'Data Integration', 'Dashboards', 'GST Reporting'],
     problemScope:

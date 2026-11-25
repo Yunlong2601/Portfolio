@@ -3,6 +3,7 @@ import SectionDescription from '@/components/custom/section-description'
 import SectionTitle from '@/components/custom/section-title'
 import AppSection from '@/components/layout/app-section'
 import MediaLightbox from '@/components/custom/media-lightbox'
+import { ProjectMockup } from '@/components/custom/project-mockups'
 import { PROJECTS } from '@/mock'
 import React from 'react'
 import { ExternalLink, Github, CheckCircle2, Briefcase, Lock } from 'lucide-react'
@@ -26,7 +27,9 @@ const ProjectSection = () => {
             className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 items-start`}
           >
             <div className="w-full md:w-2/5">
-              {project.frontImage ? (
+              {project.mockup ? (
+                <ProjectMockup kind={project.mockup} />
+              ) : project.frontImage ? (
                 <MediaLightbox
                   src={project.frontImage}
                   title={project.title || ''}
@@ -87,6 +90,11 @@ const ProjectSection = () => {
             </div>
 
             <div className="w-full md:w-3/5 space-y-4">
+              {project.client && (
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                  {project.client}
+                </p>
+              )}
               <h3 className="text-2xl font-bold text-primary">{project.title}</h3>
 
               <div className="space-y-4">

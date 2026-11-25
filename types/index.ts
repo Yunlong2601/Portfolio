@@ -11,6 +11,8 @@ export type Service = {
 export type ProjectItem = {
   /** Client work shown without media: "Industry · Company" */
   client?: string
+  /** Built-in illustration (sample data) used instead of a screenshot */
+  mockup?: 'hr-forms' | 'property-ops' | 'franchise-ops' | 'clinic-finance'
   frontImage?: string
   backImage?: string
   title?: string
