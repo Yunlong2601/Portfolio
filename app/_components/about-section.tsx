@@ -35,7 +35,7 @@ const AboutSection = () => {
         <SectionDescription
           content={`I am a Forward Deployed Engineer at Zalfion Consulting: I work directly with client teams to build the operations platforms Singapore businesses run on every day — HR and hiring, property enquiries, franchise operations and finance dashboards. I work across the stack in Next.js, Supabase and Python, shipping through reviewed pull requests to live systems.
 
-I am also completing a software engineering internship at the Urban Redevelopment Authority (URA). I studied Cybersecurity & Digital Forensics at Nanyang Polytechnic and supported 100+ users weekly in IT operations, so I care about getting the basics right: the right access for each person, careful handling of client data, and systems people can rely on.`}
+Before Zalfion, I interned as a software engineer at the Urban Redevelopment Authority (URA). I studied Cybersecurity & Digital Forensics at Nanyang Polytechnic and supported 100+ users weekly in IT operations, so I care about getting the basics right: the right access for each person, careful handling of client data, and systems people can rely on.`}
         />
 
         <div className="mt-6 flex flex-col gap-6">

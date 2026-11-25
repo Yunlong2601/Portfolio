@@ -3,7 +3,7 @@
 **🌐 Live site: [yunlong2601.github.io/Portfolio](https://yunlong2601.github.io/Portfolio/)**  
 **📄 CV (PDF): [resume.pdf](https://yunlong2601.github.io/Portfolio/resume.pdf)** · **🤖 AI-readable profile: [llms.txt](https://yunlong2601.github.io/Portfolio/llms.txt)**
 
-Forward Deployed Engineer at Zalfion Consulting, building operations platforms, dashboards and automations for Singapore businesses, and Software Engineer Intern at URA. Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
+Forward Deployed Engineer at Zalfion Consulting, building operations platforms, dashboards and automations for Singapore businesses. Previously Software Engineer Intern at URA. Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
 
 [LinkedIn](https://www.linkedin.com/in/shenyl/) · [Email](mailto:yunlong2601@gmail.com)
 

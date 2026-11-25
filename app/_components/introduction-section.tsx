@@ -43,7 +43,7 @@ const IntroductionSection = () => {
 
           <p className="text-sm md:text-base text-muted-foreground mb-6 leading-relaxed">
             Forward Deployed Engineer at Zalfion Consulting, building the operations platforms, dashboards
-            and automations Singapore businesses run on — and a software engineering intern at URA.
+            and automations Singapore businesses run on. Previously a software engineering intern at URA.
             Diploma in Cybersecurity & Digital Forensics from Nanyang Polytechnic.
           </p>
 

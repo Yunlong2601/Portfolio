@@ -13,7 +13,7 @@ const STATS: Stat[] = [
   { icon: Users,         value: 100, suffix: '+',    label: 'Users Supported Weekly' },
   { icon: Award,         value: 3,   suffix: '',      label: 'Industry Certifications' },
   { icon: FolderKanban,  value: 4,   suffix: '+',     label: 'Client Systems Built' },
-  { icon: Building2,     value: 12,  suffix: ' mo',   label: 'Internship at URA' },
+  { icon: Building2,     value: 4,   suffix: '',      label: 'Industries Served' },
 ]
 
 function useCountUp(target: number, duration = 1400, active: boolean) {

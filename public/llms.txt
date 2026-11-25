@@ -1,21 +1,21 @@
 # Shen Yunlong — Forward Deployed Engineer (Singapore)
 
-> Forward Deployed Engineer at Zalfion Consulting, building operations platforms, dashboards and automations for Singapore businesses, and a software engineering intern at the Urban Redevelopment Authority (URA). Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
+> Forward Deployed Engineer at Zalfion Consulting, building operations platforms, dashboards and automations for Singapore businesses, Previously a software engineering intern at the Urban Redevelopment Authority (URA). Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic.
 
 Website: https://yunlong2601.github.io/Portfolio/
 
-## Current roles
+## Current role
 
-- Forward Deployed Engineer, Zalfion Consulting — Sep 2026 to present, Singapore. Works directly with client teams. Full-stack features, role-based access, third-party integrations and WhatsApp/AI automations for SMEs in F&B, property, retail and health. Ships through reviewed pull requests to live production apps.
-- Software Engineer Intern, Urban Redevelopment Authority of Singapore (URA) — Mar 2026 to Feb 2027, Singapore. Design and development of internal software systems.
+- Forward Deployed Engineer, Zalfion Consulting — 2026 to present, Singapore. Works directly with client teams. Full-stack features, role-based access, third-party integrations and WhatsApp/AI automations for SMEs in F&B, property, retail and health. Ships through reviewed pull requests to live production apps.
 
 ## Previous experience
 
-- IT Support & Operations Assistant, Nanyang Polytechnic — Oct 2024 to Feb 2026. Frontline IT support for 100+ users weekly, endpoint deployments (Azure MDM), incident escalation.
+- Software Engineer Intern, Urban Redevelopment Authority of Singapore (URA) — 2025 to 2026, Singapore. Design and development of internal software systems.
+- IT Support & Operations Assistant (part-time), Nanyang Polytechnic — 2023 to 2024. Frontline IT support for 100+ users weekly, endpoint deployments (Azure MDM), incident escalation.
 
 ## Education and certifications
 
-- Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic (2022–2025)
+- Diploma in Cybersecurity & Digital Forensics, Nanyang Polytechnic (2023–2026)
 - Introduction to Cybersecurity — Cisco Networking Academy (Jan 2026)
 - Cybersecurity Fundamentals — IBM SkillsBuild (Jan 2026)
 - Web Development Fundamentals — IBM SkillsBuild (Jan 2026)

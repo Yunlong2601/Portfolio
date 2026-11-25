@@ -27,11 +27,8 @@ const PERSON_JSON_LD = {
   email: 'mailto:yunlong2601@gmail.com',
   jobTitle: 'Forward Deployed Engineer',
   description:
-    'Forward Deployed Engineer at Zalfion Consulting building operations platforms, dashboards and automations for Singapore businesses; software engineering intern at URA.',
-  worksFor: [
-    { '@type': 'Organization', name: 'Zalfion Consulting' },
-    { '@type': 'Organization', name: 'Urban Redevelopment Authority of Singapore (URA)' },
-  ],
+    'Forward Deployed Engineer at Zalfion Consulting building operations platforms, dashboards and automations for Singapore businesses; previously a software engineering intern at URA.',
+  worksFor: { '@type': 'Organization', name: 'Zalfion Consulting' },
   alumniOf: { '@type': 'CollegeOrUniversity', name: 'Nanyang Polytechnic' },
   address: { '@type': 'PostalAddress', addressCountry: 'SG' },
   knowsAbout: [

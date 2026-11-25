@@ -17,7 +17,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     type: 'work',
     title: 'Forward Deployed Engineer',
     organisation: 'Zalfion Consulting',
-    period: 'Sep 2026 – Present',
+    period: '2026 – Present',
     location: 'Singapore',
     current: true,
     description:
@@ -28,18 +28,17 @@ export const EXPERIENCE: ExperienceItem[] = [
     type: 'work',
     title: 'Software Engineer Intern',
     organisation: 'Urban Redevelopment Authority of Singapore (URA)',
-    period: 'Mar 2026 – Feb 2027',
+    period: '2025 – 2026',
     location: 'Singapore',
-    current: true,
     description:
-      'Contributing to the design and development of internal software systems at one of Singapore\'s key government statutory boards, working alongside cross-functional teams to deliver reliable and maintainable solutions.',
+      'Contributed to the design and development of internal software systems at one of Singapore\'s key government statutory boards, working alongside cross-functional teams to deliver reliable and maintainable solutions.',
     highlights: ['Software Design', 'System Development', 'Government Tech', 'Agile'],
   },
   {
     type: 'work',
-    title: 'IT Support & Operations Assistant',
+    title: 'IT Support & Operations Assistant (Part-time)',
     organisation: 'Nanyang Polytechnic',
-    period: 'Oct 2024 – Feb 2026',
+    period: '2023 – 2024',
     location: 'Singapore',
     description:
       'Provided frontline IT support to 100+ users weekly in a live operational environment. Managed endpoint deployments, resolved access and system issues, and adhered to operational security procedures including incident escalation and logging.',
@@ -49,7 +48,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     type: 'education',
     title: 'Diploma in Cybersecurity & Digital Forensics',
     organisation: 'Nanyang Polytechnic',
-    period: '2022 – 2025',
+    period: '2023 – 2026',
     location: 'Singapore',
     description:
       'Specialised diploma covering threat monitoring, digital forensics, network security, incident response, and secure software development. Completed multiple hands-on projects in authentication systems, access control, and security analysis.',

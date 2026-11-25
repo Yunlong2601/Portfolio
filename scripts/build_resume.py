@@ -79,7 +79,7 @@ story = [
 story += section('Summary')
 story.append(Paragraph(
     'Forward Deployed Engineer at Zalfion Consulting, working directly with client teams to build the operations '
-    'platforms, dashboards and automations Singapore businesses run on, and a software engineering intern at URA. '
+    'platforms, dashboards and automations Singapore businesses run on. Previously a software engineering intern at URA. '
     'Works across the stack in Next.js, TypeScript, Supabase and Python, shipping through reviewed pull requests to '
     'live production systems. Background in Cybersecurity &amp; Digital Forensics and IT operations, which shows in '
     'careful access control, handling of client data and reliable delivery.',
@@ -88,7 +88,7 @@ story.append(Paragraph(
 
 story += section('Experience')
 story.append(entry(
-    'Forward Deployed Engineer', 'Zalfion Consulting', 'Sep 2026 – Present', 'Singapore',
+    'Forward Deployed Engineer', 'Zalfion Consulting', '2026 – Present', 'Singapore',
     [
         'Build and maintain operations platforms, dashboards and WhatsApp/AI automations for SMEs in F&amp;B, '
         'property, retail and health, working directly with client teams.',
@@ -101,14 +101,14 @@ story.append(entry(
     ],
 ))
 story.append(entry(
-    'Software Engineer Intern', 'Urban Redevelopment Authority of Singapore (URA)', 'Mar 2026 – Feb 2027', 'Singapore',
+    'Software Engineer Intern', 'Urban Redevelopment Authority of Singapore (URA)', '2025 – 2026', 'Singapore',
     [
-        'Contribute to the design and development of internal software systems, working with cross-functional '
+        'Contributed to the design and development of internal software systems, working with cross-functional '
         'teams in an Agile setting to deliver reliable, maintainable solutions.',
     ],
 ))
 story.append(entry(
-    'IT Support &amp; Operations Assistant', 'Nanyang Polytechnic', 'Oct 2024 – Feb 2026', 'Singapore',
+    'IT Support &amp; Operations Assistant (Part-time)', 'Nanyang Polytechnic', '2023 – 2024', 'Singapore',
     [
         'Supported 100+ users weekly in high-usage teaching labs, resolving device and access issues with NetSupport '
         'to keep lessons running.',
@@ -137,7 +137,7 @@ story += [
 story += section('Education')
 edu = Table(
     [
-        [Paragraph('Diploma in Cybersecurity &amp; Digital Forensics — Nanyang Polytechnic', job), Paragraph('2022 – 2025', meta)],
+        [Paragraph('Diploma in Cybersecurity &amp; Digital Forensics — Nanyang Polytechnic', job), Paragraph('2023 – 2026', meta)],
         [Paragraph('GCE Ordinary Level — Holy Innocents’ High School', job), Paragraph('Jan 2023', meta)],
     ],
     colWidths=['78%', '22%'],
